@@ -12,7 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { TableComponent } from './table/table.component';
 import { from } from 'rxjs';
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -33,7 +33,7 @@ import { from } from 'rxjs';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule,HttpClientModule
     
   ],
   providers: [],
